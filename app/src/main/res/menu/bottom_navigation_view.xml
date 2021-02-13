@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/toi"
+    android:icon="@drawable/allnews"
+    android:title="Times of India"/>
+    <item
+        android:id="@+id/indiaToday"
+        android:icon="@drawable/allnews"
+        android:title="India Today"/>
+    <item
+        android:id="@+id/ndtv"
+        android:icon="@drawable/allnews"
+        android:title="NDTV"/>
+</menu>

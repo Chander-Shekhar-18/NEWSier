@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/allnews"
+            android:menuCategory="secondary"
+            android:title="@string/times_of_india" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/allnews"
+            android:menuCategory="secondary"
+            android:title="@string/india_today" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/allnews"
+            android:menuCategory="secondary"
+            android:title="@string/ndtv" />
+    </group>
+
+    <item android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/the_indian_express"
+                android:icon="@drawable/allnews"
+                android:title="The India Express"/>
+        </menu>
+    </item>
+</menu>
